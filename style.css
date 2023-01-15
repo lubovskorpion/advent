@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-image: url('pictures/1.AdventCalendar.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.first-plan{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 70vh;
+    background-image: url('pictures/1erPlan.png');
+    background-size:100% 100%;
+    z-index: 10;
+}
+
+.second-plan{
+    position: absolute;
+    bottom: -30px;
+    width: 100%;
+    height: 70vh;
+    background-image: url('pictures/2ePlan.png');
+    background-size:100% 100%;
+    z-index: 9;
+}
+
+.tried-plan{
+    position: absolute;
+    bottom: 20%;
+    width: 100%;
+    height: 70vh;
+    background-image: url('pictures/3erPlan.png');
+    background-size:100% 100%;
+    z-index: 8;
+}
+
+.guirlandes{
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    height: 90vh;
+    background-image: url('pictures/Guirlandes.png');
+    background-size:100% 100%;
+    z-index: 11;
+}
+
+
